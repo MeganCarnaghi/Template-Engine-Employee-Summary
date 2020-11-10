@@ -33,3 +33,83 @@ const render = require("./lib/htmlRenderer");
 // for further information. Be sure to test out each class and verify it generates an
 // object with the correct structure and methods. This structure will be crucial in order
 // for the provided `render` function to work! ```
+
+// Parent class - Employee
+class Employee {
+    constructor(name, id, email){
+       this._name = name;
+       this._id = id;
+       this._email = email; 
+    }
+
+ // Getter for the name property   
+ get name(){
+     return this._name;
+ }
+
+// Getter for the id property
+get id(){
+    return this._id;
+}
+
+// Getter for the behavior property
+get email(){
+    this._email;
+}
+
+// Getter for the role property
+get role(){
+    return 'Employee';
+}
+}
+
+// Child class - Manager
+class Manager extends Employee {
+    constructor(name, id, email, officeNumber){
+        super(name, id, email);
+        this._officeNumber = officeNumber;
+    }
+
+    // Getter for the officeNumber property
+    get officeNumber(){
+        return this._officeNumber;
+    }
+    // Getter for the role property
+    get role() {
+        return 'Manager';
+    }
+}
+
+// Child class - Engineer
+class Manager extends Employee {
+    constructor(name, id, email, github){
+        super(name, id, email);
+        this._github = github;
+    }
+
+    // Getter for the GitHub username property
+    get github(){
+        return this._github;
+    }
+    // Getter for the role property
+    get role() {
+        return 'Engineer';
+    }
+}
+
+// Child class - Intern
+class Manager extends Employee {
+    constructor(name, id, email, school){
+        super(name, id, email);
+        this._school = school;
+    }
+
+    // Getter for the school property
+    get school(){
+        return this._school;
+    }
+    // Getter for the role property
+    get role() {
+        return 'school';
+    }
+}

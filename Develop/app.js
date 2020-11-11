@@ -14,9 +14,49 @@ const render = require("./lib/htmlRenderer");
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 
+// Prompting the user to get the employee's role
+function promptUser() {
+    return inquirer.prompt([
+        {
+            type: "list",
+            name: "role",
+            message: "What role does the employee have?",
+            choices: [
+                "Manager",
+                "Engineer",
+                "Intern"
+            ]
+        }
+    ])
+}
+
+
+function promptUser() {
+    return inquirer.prompt([
+      {
+        type: "input",
+        name: "name",
+        message: "What is the employee's name"
+      },
+      {
+        type: "input",
+        name: "id",
+        message: "What is the employee's ID?"
+      },
+      {
+        type: "input",
+        name: "email",
+        message: "What is the employee's email address?"
+      },
+    ]);
+}
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
 // generate and return a block of HTML including templated divs for each employee!
+
+// Invoking the render function
+render()
+
 
 // After you have your html, you're now ready to create an HTML file using the HTML
 // returned from the `render` function. Now write it to a file named `team.html` in the
@@ -27,89 +67,3 @@ const render = require("./lib/htmlRenderer");
 // HINT: each employee type (manager, engineer, or intern) has slightly different
 // information; write your code to ask different questions via inquirer depending on
 // employee type.
-
-// HINT: make sure to build out your classes first! Remember that your Manager, Engineer,
-// and Intern classes should all extend from a class named Employee; see the directions
-// for further information. Be sure to test out each class and verify it generates an
-// object with the correct structure and methods. This structure will be crucial in order
-// for the provided `render` function to work! ```
-
-// Parent class - Employee
-class Employee {
-    constructor(name, id, email){
-       this._name = name;
-       this._id = id;
-       this._email = email; 
-    }
-
- // Getter for the name property   
- get name(){
-     return this._name;
- }
-
-// Getter for the id property
-get id(){
-    return this._id;
-}
-
-// Getter for the behavior property
-get email(){
-    this._email;
-}
-
-// Getter for the role property
-get role(){
-    return 'Employee';
-}
-}
-
-// Child class - Manager
-class Manager extends Employee {
-    constructor(name, id, email, officeNumber){
-        super(name, id, email);
-        this._officeNumber = officeNumber;
-    }
-
-    // Getter for the officeNumber property
-    get officeNumber(){
-        return this._officeNumber;
-    }
-    // Getter for the role property
-    get role() {
-        return 'Manager';
-    }
-}
-
-// Child class - Engineer
-class Manager extends Employee {
-    constructor(name, id, email, github){
-        super(name, id, email);
-        this._github = github;
-    }
-
-    // Getter for the GitHub username property
-    get github(){
-        return this._github;
-    }
-    // Getter for the role property
-    get role() {
-        return 'Engineer';
-    }
-}
-
-// Child class - Intern
-class Manager extends Employee {
-    constructor(name, id, email, school){
-        super(name, id, email);
-        this._school = school;
-    }
-
-    // Getter for the school property
-    get school(){
-        return this._school;
-    }
-    // Getter for the role property
-    get role() {
-        return 'school';
-    }
-}

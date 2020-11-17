@@ -116,7 +116,7 @@ function addEngineer() {
     {
     type: "input",
     name: "github",
-    message: "What is the manager's GitHub username?"
+    message: "What is the engineer's GitHub username?"
 }
   ])
   .then(function(data) {

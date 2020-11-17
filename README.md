@@ -22,7 +22,7 @@ The Software Engineering Team Node CLI will prompt the user for their email, id 
 
 ## Installation
 * Make sure you have [node.js](https://nodejs.org/en/download/) installed on your computer.
-* Open your terminal and navigate to the appropriate directory.
+* Open your terminal and navigate to the appropriate directory (Develop folder).
 * Run the "npm install" command.
 * Run the "node app.js" command to start the application.
 * Answer each of the prompts presented.

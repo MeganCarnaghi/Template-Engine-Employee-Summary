@@ -1,12 +1,12 @@
 # Template Engine - Employee Summary
 
 ## Table of Contents
-* [Instructions](instructions)
-* [User Story](user-story)
-* [Description](description)
-* [Installation](installation)
-* [Technologies Used](technologies-used)
-* [Links and Screenshot](links-and-screenshot)
+* [Instructions](#instructions)
+* [User Story](#user-story)
+* [Description](#description)
+* [Installation](#installation)
+* [Technologies Used](#technologies-used)
+* [Links and Screenshot](#links-and-screenshot)
 
 
 ## Instructions

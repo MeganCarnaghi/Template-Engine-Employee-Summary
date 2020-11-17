@@ -1,0 +1,38 @@
+/* Generic Styling */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #d9e4dd;
+    font-size: 18px;
+}
+
+a {
+    color: #5C826A;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5C826A;
+}
+
+.team-heading, .container-fluid {
+    background-color: #555555;
+    color: #fbf7f0;
+    margin-bottom: 40px;
+}
+
+.employee-card {
+    margin: 0 10px;
+}
+
+.card-header {
+    background-color: #555555;
+    color: #fbf7f0;
+}
+
+.card-body, .list-group {
+    background-color: #cdc9c3;
+    color: #555555;
+}

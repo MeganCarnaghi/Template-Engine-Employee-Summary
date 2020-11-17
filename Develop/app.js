@@ -147,7 +147,7 @@ function addIntern() {
     },
     {
     type: "input",
-    name: "github",
+    name: "school",
     message: "What is the name of the intern's school?"
 }
   ])

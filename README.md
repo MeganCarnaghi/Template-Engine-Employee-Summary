@@ -1,12 +1,12 @@
 # Template Engine - Employee Summary
 
 ## Table of Contents
-* [Instructions]Assets/my-team-screenshot.jpg#instructions)
-* [User Story]Assets/my-team-screenshot.jpg#user-story)
-* [Description]Assets/my-team-screenshot.jpg#description)
-* [Installation]Assets/my-team-screenshot.jpg#installation)
-* [Technologies Used]Assets/my-team-screenshot.jpg#technologies-used)
-* [Links and Screenshot]Assets/my-team-screenshot.jpg#links-and-screenshot)
+* [Instructions](instructions)
+* [User Story](user-story)
+* [Description](description)
+* [Installation](installation)
+* [Technologies Used](technologies-used)
+* [Links and Screenshot](links-and-screenshot)
 
 
 ## Instructions

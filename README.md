@@ -34,7 +34,7 @@ The Software Engineering Team Node CLI will prompt the user for their email, id 
 * Jest: https://jestjs.io/
 
 ## Links and Screenshot
-* GitHub Repository Link: https://github.com/MeganCarnaghi/Template-Engine-Employee-Summary.git
+* GitHub Repository Link:
 * Demo Video Link:
 
 

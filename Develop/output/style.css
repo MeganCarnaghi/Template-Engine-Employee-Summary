@@ -25,6 +25,8 @@ a:hover {
 
 .employee-card {
     margin: 0 10px;
+    border: 1px solid #cdc9c3;
+    box-shadow: 4px 3px 8px 1px #555555;
 }
 
 .card-header {

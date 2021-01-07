@@ -1,19 +1,19 @@
 # Template Engine - Employee Summary
 
 ## Table of Contents
-* [User Story](#user-story)
 * [Description](#description)
+* [User Story](#user-story)
 * [Installation](#installation)
 * [Technologies Used](#technologies-used)
 * [Links and Screenshot](#links-and-screenshot)
+
+## Description
+The Software Engineering Team Node CLI will prompt the user for their email, id and other specific information based on his/her role with the company. The user can then add additional team members as well. When finished, the application will create at HTML file that displays an organized summary of the team information provided.
 
 ## User Story
 As a manager
 I want to generate a webpage that displays my team's basic info
 so that I have quick access to emails and GitHub profiles
-
-## Description
-The Software Engineering Team Node CLI will prompt the user for their email, id and other specific information based on his/her role with the company. The user can then add additional team members as well. When finished, the application will create at HTML file that displays an organized summary of the team information provided.
 
 ## Installation
 * Make sure you have [node.js]Assets/my-team-screenshot.jpghttps://nodejs.org/en/download/) installed on your computer.

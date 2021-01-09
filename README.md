@@ -6,6 +6,7 @@
 * [Installation](#installation)
 * [Technologies Used](#technologies-used)
 * [Links and Screenshot](#links-and-screenshot)
+* [License](#license)
 
 ## Description
 The Software Engineering Team Node CLI will prompt the user for their email, id and other specific information based on his/her role with the company. The user can then add additional team members as well. When finished, the application will create at HTML file that displays an organized summary of the team information provided.
@@ -23,10 +24,13 @@ so that I have quick access to emails and GitHub profiles
 * Answer each of the prompts presented.
 
 ## Technologies Used
-* HTML, JavaScript, CSS, Node.js
-* Bootstrap: https://getbootstrap.com/
-* NPM Inquirer Package: https://www.npmjs.com/package/inquirer
-* Jest: https://jestjs.io/
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* Node.js
+* NPM Inquirer Package
+* Jest
 
 ## Links and Screenshot
 * GitHub Repository Link: https://github.com/MeganCarnaghi/Template-Engine-Employee-Summary.git
@@ -34,4 +38,6 @@ so that I have quick access to emails and GitHub profiles
 
 ![my-team-screenshot](Assets/my-team-screenshot.jpg)
 
+## License
 
+![license](https://img.shields.io/badge/License-MIT-success)
